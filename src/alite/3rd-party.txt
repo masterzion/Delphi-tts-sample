@@ -1,0 +1,36 @@
+Some instructions for 3rd-party features using in AC5 full release :
+
+1. TntControls Unicode
+2. TPngImageList
+3. DevEx QuantumGrid
+4. Billenium Effects
+5. TwwDBGrid, TDBGridEH, TRxDBGrid, TMS grids, standard edit controls
+
+---------------------------
+
+1. TntControls Unicode
+
+  Some controls from AlphaControls package may have support of Unicode (in Delphi6-2006). 
+In this case used the TntControls package (thanks TNT authors, TntControls must be installed already). For using this feature should be uncommented the TNTUNICODE key in the sDefs.inc file (should be {$DEFINE TNTUNICODE}) and AlphaControls package must be reinstalled. Controls that have Unicode support at moment : TsCheckBox, TsComboBox, TsEdit, TsGroupBox, TsRadioGroup, all sLabels, TsMemo, TsRadioButton and some other
+  TntControls may be downloaded from http://www.tntware.com
+  Note : don't forget backup all projects before opening after package installation, some Unicode data may be lost if compiled without TNTUNICODE key.
+
+2. TPngImageList
+
+  Buttons and menus from AlphaControls have support of TPngImageList component. For work with this component the USEPNG key should be defined in the sDefs.inc file (must be {$DEFINE USEPNG}).
+  TPNGImageList is a freeware component with sources that may be used for work with PNG glyphs in any application. 
+May be downloaded from http://www.thany.org/article/32/PngComponents
+
+3. DevEx QuantumGrid
+
+  For correct support of cxGrid should be enabled the DEVEX key in the sDefs.inc file from AlphaControls (must be {$DEFINE DEVEX}).
+  Also sources of the cxGrid and AlphaControls package must be available and the cxLookAndFeels.pas file 
+from QuantumGrid package must be patched (patch may be downloaded from http://www.alphaskins.com/sfiles/3rdparty/devexpatch.zip
+
+4. Billenium Effects
+
+  This pack is supported authomatically
+
+5. TwwDBGrid, TDBGridEH, TRxDBGrid, TMS grids, standard edit controls
+  
+  Skinned automatically if TsSkinProvider component was placed to the form

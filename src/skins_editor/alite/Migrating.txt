@@ -1,0 +1,35 @@
+  Some recommendations for migrating from AC4 or standard controls to AC5 :
+
+1. All projects must be backuped!
+
+2. All forms Dfm files should be saved in text format (right mouse button click 
+on form in design time and choose "Text Dfm").
+
+Note: If AC4 has been used then do not install AC5 while all forms are not saved as Text Dfm.
+
+3. Install AC5. Instructions for installing can be found in the Readme.txt file
+
+4. Run the AlphaConvert utility ( http://www.alphaskins.com/sfiles/alphaconvert.zip )
+
+5. Choose files for converting (many files may be selected if used Shift or Ctrl).
+
+6. Choose required converting plan and press "Next".
+
+7. Reopen all forms with AlphaControls 5 and resave them. 
+
+   That's all!
+
+   For AC4 users :  -------------------------------------------------------------------------------------------
+   All Delphi warnings about "Unknown property may be ignored".
+   File sUtils.pas has been renamed to acUtils.pas, you should change your sources 
+   manually if this file has been used. DoHook and RefreshScroll procedures has been removed too.
+   All scrolls must work automatically now.
+
+   TsDriveComboBox, TsFileListView and TsPathComboBox controls has been deprecated.
+   These components are not included in AC5, but may be found in the separated ac4deprecated.zip package .
+   http://www.alphaskins.com/sfiles/ac4deprecated.zip
+
+   For the package installing just copy it in the AlphaControls package and install sReg.pas file.
+   
+   In this package may be found the old sUtils.pas file for programmers who use it and does not want to change own sources.
+   -------------------------------------------------------------------------------------------

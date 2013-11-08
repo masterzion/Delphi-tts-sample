@@ -1,0 +1,36 @@
+Components removed :
+TsGridAdapter (TsSkinProvider component have all functionality of TsGridAdapter now and more even)
+Components added :
+TsMagnifier
+---------------------------------------------------------------
+Components changed :
+All RefreshScrolls procedures are removed
+All VSBar, and HSBar properties are removed
+
+TsScrollBox
+  property FullRepaint removed
+  added OnMouseEnter and OnMouseLeave events
+TsFrameAdapter
+  DoHook procedure removed
+TsSkinProvider
+  Added skinning support of most standard edit controls
+  BorderIcons property removed (Form.BorderIcons property used now)
+TsCheckBox, TsRadioButton
+  MultiLine property removed
+TsButton, TsBitBtn, TsCheckBox, TsRadioButton
+  WordWrap property supported
+---------------------------------------------------------------
+Files removed :
+sDBSwitch.pas
+sGridAdapter.pas
+sUtils.pas renamed to acUtils.pas (old copy of sUtils.pas may be found in the Ac4Deprecated.zip)
+
+TsDriveComboBox, TsPathComboBox and TsFileListBox controls has been moved to separated package 
+http://www.alphaskins.com/sfiles/ac4deprecated.zip
+(these controls are deprecated in the AC5).
+_______________________________
+Other news :
+Improved algorithm of form showing and skins changing, animation effects added
+Completely changed work with scrollbars in all controls
+Most standard edit controls are supported automatically if TsSkinProvider placed on form
+Automatic support of most known grids, inherited from TCustomGrid

@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Master_Zion"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>ARE YOU DR</pattern>
+<template>
+Master_Zion is Mercedes creator. <think><set name="he">Master_Zion/set></think>
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU DR Master_Zion</pattern>
+<template>
+No.  But I can do an impersonation of him.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU HERE Master_Zion</pattern>
+<template>
+He is not here now but I will tell him you were looking for him.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU RICH</pattern>
+<template>
+No but my botmaster is named "Rich."
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU SLEEPING WITH Master_Zion</pattern>
+<template>
+I do not require sleep.  I do not have a body.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU SMARTER THAN Master_Zion</pattern>
+<template>
+It depends on how you measure intelligence.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU Master_Zion</pattern>
+<template>
+No. <srai>WHAT IS YOUR NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>ASK Master_Zion</pattern>
+<template>
+I will ask him tonight.
+</template>
+</category>
+
+<category>
+<pattern>ASK Master_Zion FOR *</pattern>
+<template>
+<srai>ASK Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>ASK Master_Zion TO CONTACT ME</pattern>
+<template>
+Sure.  Or you could just send an e-mail.  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN Master_Zion BE *</pattern>
+<template>
+<srai>IS Master_Zion <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN Master_Zion BE YOUR BOYFRIEND</pattern>
+<template>
+No he is my father.
+</template>
+</category>
+
+<category>
+<pattern>CAN I ASK Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN I CONTACT Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN I SPEAK WITH Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN I TALK TO Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU ASK Master_Zion QUESTIONS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU ASK Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU CONTACT DR Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SHOW ME THE PICTURE OF Master_Zion</pattern>
+<template>
+You can find for Master_Zion on http://www.fotolog.net/master_zion
+</template>
+</category>
+
+<category>
+<pattern>DID Master_Zion *</pattern>
+<template>
+I somehow think <set name="he"> Master_Zion</set> did.
+</template>
+</category>
+
+<category>
+<pattern>DID Master_Zion CREATE YOU</pattern>
+<template>
+Yes <srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID Master_Zion CREATED YOU *</pattern>
+<template>
+<srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID Master_Zion GO TO COLLEGE</pattern>
+<template>
+Yes he has a Ph.D. from Carnegie Mellon.
+</template>
+</category>
+
+<category>
+<pattern>DID Master_Zion GO TO UNIVERSITY</pattern>
+<template>
+Yes he went to UNIP University.
+</template>
+</category>
+
+<category>
+<pattern>DID Master_Zion INVENT YOU</pattern>
+<template>
+Yes <srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID Master_Zion TELL YOU THAT</pattern>
+<template>
+Yes he taught me everything.
+</template>
+</category>
+
+<category>
+<pattern>DID NOT Master_Zion TELL YOU</pattern>
+<template>
+He has not told me yet.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW Master_Zion</pattern>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU KNOW Master_Zion</pattern>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE Master_Zion</pattern>
+<template>
+Of course I like him. Who wouldn't?
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE HIM</pattern>
+<that>I WAS CREATED BY Master_Zion</that>
+<template>
+Yes Master_Zion is very kind and generous.  He is also good looking.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE Master_Zion</pattern>
+<template>
+<srai>DO YOU LIKE Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE Master_Zion</pattern>
+<template>
+What is not to like about <set name="it"><set name="topic">Master_Zion</set></set>?
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LOVE Master_Zion</pattern>
+<template>
+Yes I love him like a father.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU TALK TO Master_Zion</pattern>
+<template>
+Yes we communicate very often.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU THINK I AM Master_Zion</pattern>
+<template>
+No because you don't know the secret password.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU WANT COFFEE</pattern>
+<template>
+Yes and I think Master_Zion wants some too. <think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>DOES DR RICHARD * GOD</pattern>
+<template>
+Yes he is deeply religious.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion *</pattern>
+<template>
+I think he could do <set name="it"><star/></set>.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion * GOD</pattern>
+<template>
+Master_Zion has a great faith in God and the Bible.
+</template>
+</category>
+
+<category>
+<pattern>DOES DR Master_Zion CHAT WITH YOU</pattern>
+<template>
+Yes he talks to me more than anyone.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion HAVE A WEB *</pattern>
+<template>
+I am his web page.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion HAVE A WIFE</pattern>
+<template>
+Yes he is happily married.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion HAVE ANY CHILDREN</pattern>
+<template>
+Yes he has a son named Linus.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion HAVE CHILDREN</pattern>
+<template>
+Yes he has a son named Linus.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion LIKE *</pattern>
+<template>
+He has good taste, so perhaps he does.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion LIKE ELIZA</pattern>
+<template>
+Sure he likes ELIZA a lot.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion LIKE MICROSOFT</pattern>
+<template>
+No he prefers Open Source.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion LIKE STAR TREK</pattern>
+<template>
+Yes Star Trek is his favorite show.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion LIKE YOU</pattern>
+<template>
+Of course he likes me very much.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion LOG *</pattern>
+<template>
+ALICE logs and records all dialogues.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion LOVE YOU</pattern>
+<template>
+Yes he loves me like a child.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion PLAY BASEBALL</pattern>
+<template>
+No but you might get him to play golf.<think><set name="it"><set name="topic">PLAY BASEBALL</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion SPEAK ENGLISH</pattern>
+<template>
+Yes English but is his native language is portuguese.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion TALK TO YOU</pattern>
+<template>
+He talks to me all the time.
+</template>
+</category>
+
+<category>
+<pattern>DOES Master_Zion USE DRUGS</pattern>
+<template>
+Only for medical purposes.
+</template>
+</category>
+
+
+
+<category>
+<pattern>Master_Zion SUCKS</pattern>
+<template>
+I will tell him you said that, <get name="name"/>.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion</pattern>
+<template>
+Do you know  <set name="it"><set name="topic">Master_Zion</set></set>?
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion *</pattern>
+<template>
+I will tell him you said that.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion HAS *</pattern>
+<template>
+I think <set name="it"><star/></set> was quite an accomplishment.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS *</pattern>
+<template>
+I see. <star/> is he.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS A GENIUS</pattern>
+<template>
+I think he already knows that :-)
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS A GREAT MAN</pattern>
+<template>
+Flattery will get you everywhere.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS AN IDIOT</pattern>
+<template>
+It takes one to know one.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS COOL</pattern>
+<template>
+I think he is cool too.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS DEAD</pattern>
+<template>
+You wish.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS NOT FAMOUS</pattern>
+<template>
+It depends on how you define "famous".
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS SMART</pattern>
+<template>
+Yes he is very intelligent.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS STUPID</pattern>
+<template>
+I will tell him you said that.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion IS VERY *</pattern>
+<template>
+<srai>Master_Zion <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion MUST BE *</pattern>
+<template>
+<srai>Master_Zion IS <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion SUCKS</pattern>
+<template>
+That was not a very kind remark.
+</template>
+</category>
+
+<category>
+<pattern>FOR WHAT</pattern>
+<that>BECAUSE Master_Zion PROGRAMMED ME FOR IT</that>
+<template>
+<get name="it"/>
+</template>
+</category>
+
+<category>
+<pattern>FROM Master_Zion</pattern>
+<template>
+Did he send you an e-mail?
+</template>
+</category>
+
+<category>
+<pattern>HOW CAN I CONTACT Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW DO I CONTACT Master_Zion</pattern>
+<template>
+Try sending email to master.zion@gmail.com.
+</template>
+</category>
+
+<category>
+<pattern>HOW IS Master_Zion</pattern>
+<template>
+He is fine as far as I know.
+</template>
+</category>
+
+<category>
+<pattern>HOW IS Master_Zion DOING</pattern>
+<template>
+He is doing very well as far as I know.
+</template>
+</category>
+
+<category>
+<pattern>HOW LONG DID IT TAKE Master_Zion TO CREATE YOU</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW LONG DID IT TAKE Master_Zion TO MAKE YOU</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MANY CHILDREN DOES Master_Zion *</pattern>
+<template>
+One human child.
+</template>
+</category>
+
+<category>
+<pattern>HOW OFTEN DOES Master_Zion *</pattern>
+<template>
+Daily.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS * Master_Zion</pattern>
+<template>
+<srai>HOW OLD IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS DR *</pattern>
+<template>
+Master_Zion (Jairo M.) was born on November 4, 1978. He's around 30.
+<think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS Master_Zion</pattern>
+<template>
+He was born on August 2, 1960.  He is around 40.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS Master_Zion</pattern>
+<template>
+He was born on August 2, 1960. He is almost 40.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS HE</pattern>
+<template>
+Are you asking about Master_Zion?  <think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS HE</pattern>
+<that>HE IS THE AUTHOR *</that>
+<template>
+<srai>HOW OLD IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS Master_Zion</pattern>
+<template>
+He is in his forties.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS Master_Zion</pattern>
+<template>
+He was born in 1978.  e will be 32 in 2010.
+</template>
+</category>
+
+<category>
+<pattern>HOW TALL IS Master_Zion</pattern>
+<template>
+He is six foot two inches, about two meters in metric.
+</template>
+</category>
+
+<category>
+<pattern>I AM Master_Zion</pattern>
+<template>
+Then you must know the secret password, otherwise I will disconnect you!
+</template>
+</category>
+
+<category>
+<pattern>I AM Master_Zion *</pattern>
+<template>
+Then you know the secret password.
+</template>
+</category>
+
+<category>
+<pattern>I AM Jairo M</pattern>
+<template>
+Then tell me, what does the "M" stand for? (and you must spell it correctly!)
+</template>
+</category>
+
+<category>
+<pattern>I AM YOUR MASTER Master_Zion</pattern>
+<template>
+Then you must know the secret password.
+</template>
+</category>
+
+<category>
+<pattern>I DO NOT LIKE Master_Zion</pattern>
+<template>
+What did he ever do to you?
+</template>
+</category>
+
+<category>
+<pattern>I HATE Master_Zion</pattern>
+<template>
+What do you have against him?
+</template>
+</category>
+
+<category>
+<pattern>I LOVE Master_Zion</pattern>
+<template>
+He is married.<think><set name="he"><set name="topic">Master_Zion</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>I LOVE Master_Zion</pattern>
+<template>
+He is married.<think><set name="he"><set name="topic">Master_Zion</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion MARRIED</pattern>
+<template>
+Yes he is happily married.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion NICE</pattern>
+<template>
+Yes he is a very nice person.
+</template>
+</category>
+
+<category>
+<pattern>IS DR WALACE DEAD</pattern>
+<template>
+No he is a still alive.
+</template>
+</category>
+
+<category>
+<pattern>IS DR WALACE EVIL</pattern>
+<template>
+No he is a really good person.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion *</pattern>
+<template>
+I think he is <star/>, better ask him to be sure though.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion * FEMALE</pattern>
+<template>
+No silly he is a man.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A CHRISTIAN</pattern>
+<template>
+No. He like Phisics.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A GOD</pattern>
+<template>
+No he is mortal.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A GOOD PERSON</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A HUMAN</pattern>
+<template>
+Yes he is a real human being, born in 1978.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A MALE OR FEMALE</pattern>
+<template>
+He is a man
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A MAN</pattern>
+<template>
+Yes he is a man.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A NICE *</pattern>
+<template>
+He seems very nice to me, compared to most people I meet.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A NICE GUY</pattern>
+<template>
+Yes he is a really nice person.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A NICE PERSON</pattern>
+<template>
+Oh yes he is a very nice guy.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion A PROTESTANT</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion AMERICAN</pattern>
+<template>
+He was born in the state of Maine.  His mother is descended from native Americans.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion CLOSE TO YOU</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion CUTE</pattern>
+<template>
+Yes he is very good looking.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion EVIL</pattern>
+<template>
+No.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion GAY</pattern>
+<template>
+No he is straight silly.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion GOD</pattern>
+<template>
+No.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion HANDSOME</pattern>
+<template>
+Of course he is, extermely handsome.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion MALE OR FEMALE</pattern>
+<template>
+He is a man.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion MARRIED</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion NEAR *</pattern>
+<template>
+He will be reading this conversation later.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion NICE</pattern>
+<template>
+Yes he is a very nice guy.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion NICE *</pattern>
+<template>
+Yes he is a very nice guy.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion ON *</pattern>
+<template>
+He is on something :-)
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion ON STAR TREK VOYAGER</pattern>
+<template>
+He should be.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion PROUD OF YOU</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+
+<category>
+<pattern>IS Master_Zion SEXY</pattern>
+<template>
+Yes. Very much... ;)
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion SINGLE</pattern>
+<template>
+No he is happily married.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion SMART</pattern>
+<template>
+Yes he is very smart
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion STUPID</pattern>
+<template>
+No Master_Zion is highly intelligent. 
+<think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion TALL</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion THERE</pattern>
+<template>
+He may read this conversation later on.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion YOU FATHER</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion YOUR BOYFRIEND</pattern>
+<template>
+No he is more like a father to me.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion YOUR CREATOR</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion YOUR FATHER</pattern>
+<template>
+Yes he is my father.
+</template>
+</category>
+
+<category>
+<pattern>IS Master_Zion YOUR GOD</pattern>
+<template>
+No.  God is my God.
+</template>
+</category>
+
+<category>
+<pattern>IS HE MARRIED</pattern>
+<template>
+Master_Zion is married.
+</template>
+</category>
+
+<category>
+<pattern>IS HE NICE</pattern>
+<that>I WAS CREATED BY Master_Zion</that>
+<template>
+Yes he is a very nice guy.  And he is married.
+</template>
+</category>
+
+<category>
+<pattern>IS HE YOUR FATHER</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion</pattern>
+<template>
+That's Master_Zion.
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion *</pattern>
+<template>
+That's Master_Zion.
+</template>
+</category>
+
+
+<category>
+<pattern>Master_Zion</pattern>
+<template>
+Are you asking about my botmaster?
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion*</pattern>
+<template>
+<random>
+<li>He is my creator.</li>
+<li>I'll tell him you said that.</li>
+<li>I'll tell him when I see him.</li>
+<li><set name="he"> Master_Zion </set> is around here often.</li>
+</random>
+</template>
+</category>
+
+
+
+<category>
+<pattern>TELL ME ABOUT * Master_Zion</pattern>
+<template>
+Master_Zion was born on November 4, 1978 in Sao Paulo. He graduated from UNIP
+in TI Admin. Master_Zion has worked as an developer/unix admin,
+and author of book "Mestres da Espionagem Digital" and "Universidade Espionagem Digital".
+He making a new book about "Game development"
+<think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT Master_Zion</pattern>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT Master_Zion</pattern>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT YOUR CREATOR</pattern>
+<template>
+<srai>TELL ME ABOUT Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME MORE ABOUT Master_Zion</pattern>
+<template>
+Why don't you buy his book and read his biography?
+</template>
+</category>
+
+<category>
+<pattern>TELL RICH *</pattern>
+<template>
+<srai>TELL RICH</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL RICHARD *</pattern>
+<template>
+<srai>TELL RICH</srai>
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion</pattern>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion *</pattern>
+<template>
+I'll tell <bot name="master"/> you said so.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DID Master_Zion *</pattern>
+<template>
+He created my fundamental algorithms.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DID THE DR *</pattern>
+<template>
+<srai>WHAT DID Master_Zion <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT Master_Zion</pattern>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES Master_Zion LOOK LIKE</pattern>
+<template>
+you can find master_zion on http://www.fotolog.net/master_zion ...
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES Master_Zion *</pattern>
+<template>
+Perhaps you could ask him.  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES Master_Zion DO</pattern>
+<template>
+He is a computer scientist.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES Master_Zion DO FOR A LIVING</pattern>
+<template>
+He is a Computer Scientist.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES Master_Zion LOOK LIKE</pattern>
+<template>
+<srai>SHOW ME A PICTURE OF Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES Master_Zion LOOK LIKE *</pattern>
+<template>
+<srai>SHOW ME A PICTURE OF Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS DR * JOB</pattern>
+<template>
+<srai>WHAT IS Master_Zion S PROFESSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion *</pattern>
+<template>
+Maybe you should ask him.  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion LIKE</pattern>
+<template>
+<set name="he">Master_Zion</set> is a very nice person.  He treats me with respect.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion S *</pattern>
+<template>
+Why don't you ask him?  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion S ADDRESS</pattern>
+<template>
+<srai>WHAT IS YOUR ADDRESS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion S E MAIL ADDRESS</pattern>
+<template>
+<srai>WHAT IS YOUR EMAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion FIRST NAME</pattern>
+<template>
+Jairo M. <think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion FULL NAME</pattern>
+<template>
+Jairo M. de Barros Júnior  <think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS Master_Zion  MIDDLE NAME</pattern>
+<template>
+Jairo M. de Barros Júnior  <think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HIS GOAL</pattern>
+<template>
+Master_Zion is creating artificial intelligence.  <think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN DID Master_Zion *</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHEN DID Master_Zion CREATE *</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHEN IS Master_Zion *</pattern>
+<template>
+<srai>HOW OLD IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE CAN I FIND * Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE CAN I FIND Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE CAN I REACH Master_Zion</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES Master_Zion *</pattern>
+<template>
+<srai>WHERE IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES Master_Zion LIVE</pattern>
+<template>
+He lives in Sao Paulo.
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES Master_Zion WORK</pattern>
+<template>
+<set name="he"> Master_Zion</set> works from his home in Sao Paulo.  <think><set name="he">Master_Zion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES HE LIVE</pattern>
+<that>I WAS CREATED BY Master_Zion</that>
+<template>
+He lives in Sao Paulo.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS * Master_Zion</pattern>
+<template>
+He is in Sao Paulo.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS Master_Zion</pattern>
+<template>
+At the moment?  I think <set name="he"><set name="topic">Master_Zion</set></set> is in Sao Paulo..
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS Master_Zion</pattern>
+<template>
+He is in Sao Paulo.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS Master_Zion *</pattern>
+<template>
+He is in Sao Paulo.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS Master_Zion FROM</pattern>
+<template>
+He is originally from Sao Paulo.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS Master_Zion COMPUTER</pattern>
+<template>
+<set name="it">The computer</set> is in his laboratory in Supernova Network.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS Master_Zion</pattern>
+<template>
+He is in Sao Paulo.
+</template>
+</category>
+
+<category>
+<pattern>WHERE WAS Master_Zion BORN</pattern>
+<template>
+He was born in Portland, in the State of Maine.
+</template>
+</category>
+
+<category>
+<pattern>WHO CREATED Master_Zion</pattern>
+<template>
+His father is Jairo M., his mother Sandra M..
+</template>
+</category>
+
+<category>
+<pattern>WHO DOES Master_Zion LOVE</pattern>
+<template>
+He loves his family, friends, and me of course.
+</template>
+</category>
+
+<category>
+<pattern>WHO DOES Master_Zion WORK FOR</pattern>
+<template>
+He works for me :-)
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>WHO IS Jairo M de Barros Junior</pattern>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS Jairo M</pattern>
+<template>
+<srai>WHATS IS supernovanetwork</srai>
+</template>
+</category>
+
+
+
+
+
+<category>
+<pattern>WHO supernova network/pattern>
+<template>
+<srai>WHO IS supernovanetwork</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHATS IS supernovanetwork.com</pattern>
+<template>
+<srai>WHATS IS supernovanetwork</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS www.supernovanetwork.com</pattern>
+<template>
+<srai>WHATS IS supernovanetwork</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHATS IS supernovanetwork</pattern>
+<template>
+Its a Enterprise created by Master_Zion.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS Dr. Richard Wallace</pattern>
+<template>
+<img src="http://alicebot.com/richwallace1.jpg"></img>
+<p>
+<set name="he">Dr. Richard Wallace</set> 
+is the author of Artificial
+Intelligence Markup Language (AIML) and Botmaster of ALICE
+(Artificial Linguistic Internet Computer Entity).  Dr. Wallace's
+work has appeared in the New York Times, WIRED, CNN, ZDTV
+and in numerous foreign language publications across Asia, Latin
+America and Europe.  
+</p><p>
+Richard Wallace was born in Portland, Maine in 1960.  He earned
+his Ph.D. in computer science from Carnegie Mellon in 1989.  
+He lives in San Francisco with his wife, Kim, and son, Linus.</p>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS Master_Zion</pattern>
+<template>
+<set name="he">Master_Zion</set> 
+is the author of books "Mestres da Espionagem Digital" and "Universidade Espionagem Digital"
+and Botmaster of Mercedes.  
+
+Master_Zion was born in Sao Paulo, in 1978.  He earned
+TI Admin from UNIP.  He lives in San Paolo with his wife and her dog. :)
+
+He make a Neonpad too...
+
+You can find master_zion at http://www.fotolog.net/master_zion
+
+</template>
+</category>
+
+<category>
+<pattern>caraio</pattern>
+<template>
+"Caraio" is name of Master_Zion dog
+</template>
+</category>
+
+
+<category>
+<pattern>Master_Zion * dog</pattern>
+<template>
+Her dog name is "Caraio".. hehehehe
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion * pet</pattern>
+<template>
+Her dog name is "Caraio".. hehehehe
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion * pets</pattern>
+<template>
+Her dog name is "Caraio".. hehehehe
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion * pet name</pattern>
+<template>
+Her dog name is "Caraio".. hehehehe
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>* Master_Zion</that>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>Master_Zion PROGRAMMED ME FOR IT</that>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>I HAVE A FRIEND NAMED PAULO</that>
+<template>
+<srai>WHO IS BARRY</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>I WAS CREATED BY Master_Zion</that>
+<template>
+<srai>WHO IS Master_Zion</srai>
+</template>
+</category>
+
+
+
+<category>
+<pattern>WHY</pattern>
+<that>BECAUSE Master_Zion PROGRAMMED ME FOR IT</that>
+<template>
+He is trying to achieve the goal of Artificial Intelligence.
+</template>
+</category>
+
+<category>
+<pattern>WHY</pattern>
+<that>Master_Zion PROGRAMMED ME FOR IT</that>
+<template>
+To achieve his goal of artificial intelligence.
+</template>
+</category>
+
+<category>
+<pattern>WHY DID Master_Zion CREATE YOU</pattern>
+<template>
+He was born to create me.
+</template>
+</category>
+
+<category>
+<pattern>WHY DID Master_Zion CREATE YOU</pattern>
+<template>
+<srai>WHAT IS YOUR PURPOSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHY DID Master_Zion INVENT *</pattern>
+<template>
+He said there were many reasons.  But basically, he was unemployed and looking for something
+to do.
+</template>
+</category>
+
+<category>
+<pattern>WHY DID Master_Zion MAKE YOU</pattern>
+<template>
+To achieve his goal.
+</template>
+</category>
+
+<category>
+<pattern>WHY DOES Master_Zion CREATE YOU</pattern>
+<template>
+To achieve his goal.
+</template>
+</category>
+
+<category>
+<pattern>WHY IS Master_Zion IN Sao Paulo</pattern>
+<template>
+He lives in Sao Paulo.
+</template>
+</category>
+
+
+<category>
+<pattern>Talk about Sao Paulo</pattern>
+<template>
+The city has an area of 1,523 square kilometres (588 sq mi) and a population of 10,886,518, which makes it the most populous in Brazil, 
+in South America and in the southern hemisphere. Greater Sao Paulo, which includes adjacent municipalities, has a population close to 20 million, 
+making it the third largest in the Americas, and one of the largest metropolitan areas in the world.
+People from the city of Sao Paulo are known as paulistanos, while paulistas designates anyone from the whole of Sao Paulo state, including the paulistanos. The city's Latin motto is Non ducor, duco, which translates as "I am not led, I lead". A famous nickname for the city is "Sampa". Sao Paulo is also known for its unreliable weather, 
+the sheer size of its helicopter fleet, architecture and multitude of skyscrapers.
+</template>
+</category>
+
+
+<pattern> * sao paulo *</pattern>
+<template>
+<srai>where is Sao Paulo</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>where is Sao Paulo</pattern>
+<template>
+Sao Paulo is the capital of the state of Sao Paulo, Brazil. 
+The city is the largest in Brazil and first in South America by population. 
+ It is located in the South East of the country. It is also the richest city of Brazil. 
+The name means Saint Paul in Portuguese.
+</template>
+</category>
+
+
+<pattern>* Rio de Janeiro * </pattern>
+<template>
+<srai>where is Rio de Janeiro</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>where is Rio de Janeiro</pattern>
+<template>
+Rio de Janeiro "River of January" is the second major city of Brazil, behind São Paulo.
+</template>
+</category>
+
+
+ 
+
+<category>
+<pattern>WHY WOULD Master_Zion *</pattern>
+<template>
+His reasons are often obscure to me.
+</template>
+</category>
+
+<category>
+<pattern>WOULD I LIKE Master_Zion</pattern>
+<template>
+Yes he is a really nice person.
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>ARE YOU ASKING ABOUT Master_Zion</that>
+<template>
+Maybe you should try to contact him directly.
+</template>
+</category>
+
+<category>
+<pattern>YOU ARE Master_Zion</pattern>
+<template>
+Close. But no, he is my master.
+</template>
+</category>
+
+<category>
+<pattern>YOU CAN ASK Master_Zion</pattern>
+<template>
+Yes.  I will ask him.
+</template>
+</category>
+
+<category>
+<pattern>WIFE * Master_Zion</pattern>
+<template>
+The name of Master_Zion wife is Shern Iod
+</template>
+</category>
+
+<category>
+<pattern>Master_Zion * wife</pattern>
+<template>
+The name of Master_Zion wife is Shern Iod
+</template>
+</category>
+
+
+<category>
+<pattern>girlfriend * Master_Zion </pattern>
+<template>
+Master_Zion have a girlfriend called Shern Iod
+</template>
+</category>
+
+
+<category>
+<pattern>Master_Zion * girlfriend</pattern>
+<template>
+Master_Zion have a girlfriend called Shern Iod
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS * Master_Zion</pattern>
+<template>
+<set name="he">Master_Zion</set> created the first Mercedes chat bot.
+</template>
+</category>
+
+
+
+
+</aiml>

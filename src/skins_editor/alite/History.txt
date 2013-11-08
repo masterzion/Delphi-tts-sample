@@ -1,0 +1,6 @@
+AlphaControls :: history
+
+16.03.2007     AlphaControls v5.00 (beta) released
+
+A lot of big changes and improvements. Detailed list of changes you can find in the v5changes.txt file.
+Some recomendations for migrating from AC4 or standard controls to AC5 : migrating.txt
